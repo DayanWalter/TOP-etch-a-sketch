@@ -7,7 +7,7 @@ function createRowsAndColums(){
     // set everything to default
     container.innerHTML = "";
     let colums = prompt("Enter number of colums","");
-    // check if the input is to high or to low
+    // check if the input is too high or too low
     if(colums >=1 && colums <= 100){
         // loop through the prompt input and create divs
         for(i=0; i<(colums*colums); i++){
